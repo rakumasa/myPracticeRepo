@@ -1,0 +1,11 @@
+Question How can we update Bruce Wayne's second favorite color to pink?
+
+var Bruce = { favorite_food: "Hot dog",
+              favorite_color: ["Blue", "Red", "Black"],
+              favorite_car: "BMW X6",
+              };
+
+Answer
+Replacing "Red" to "Pink" to "favorite_color" by following code,
+
+Bruce["favorite_color"][1] = "Pink";

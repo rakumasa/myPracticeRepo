@@ -1,0 +1,14 @@
+How can we get Bruce Wayne's second favorite color?
+
+Answer
+First create an object of his favorite items below.
+
+var Bruce = { favorite_food: "Hot dog",
+              favorite_color: ["Blue", "Red", "Black"],
+              favorite_car: "BMW X6",
+              };
+
+Answer
+console.log(Bruce.favorite_color[1]);
+or
+console.log(Bruce["favorite_color"][1]);

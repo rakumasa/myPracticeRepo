@@ -1,0 +1,4 @@
+Question: What would happen if I specify myArray[-1]?
+
+Answer
+Undefined.  There is no -1 index number in this array.

@@ -1,0 +1,21 @@
+Question When might we want to iterate between two numbers?
+
+
+for (var i = 1; i < 5; i++) {
+  console.log(i);
+}
+
+// What will this log to the console??
+
+Output of console log
+1
+2
+3
+4
+
+Answer
+We want to iterate between line 20 and line 22.  This case iterate start from 1 and end by 4.
+
+for (var i = 1; i < 5; i++) {
+  console.log(i);
+}

@@ -1,0 +1,10 @@
+Question: What are the types of elements in randomArray below?
+
+  var randomArray = ["hi", 3, null, [1, 2, 3], true, "bye"];
+
+
+Answer:
+  string
+  number(integer)
+  Boolean
+  object

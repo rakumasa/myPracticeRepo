@@ -1,0 +1,13 @@
+Do you think changing an object or array passed into a function remain changed once the function completes?
+
+function foo(arr) {
+  arr[0] = 1;
+}
+
+var arr = []
+foo(arr);
+console.log(foo);
+
+
+Answer
+Yes, it changes.

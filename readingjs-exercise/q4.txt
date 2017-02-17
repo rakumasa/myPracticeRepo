@@ -1,0 +1,4 @@
+Question: What would happen if I specify myArray[100]?
+
+Answer
+Undefined. Because in this array, there is no 100th index number.

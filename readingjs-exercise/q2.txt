@@ -1,0 +1,15 @@
+Question: Write the array of the names of the people in your group.
+
+Answer
+
+var student = { name: "Brad Transtrum",
+                name: "Carol Cordova",
+                name: "Daniel Versoza",
+                name: "Dashon Hawkins",
+                name: "Elle Bayless",
+                name: "GJullian Flemister-King",
+                name: "Jose Sandate",
+                name: "Laura Balis",
+                name: "Lauren Namba",
+                name: "Julian Duran,
+                }
