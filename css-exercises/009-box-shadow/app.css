@@ -1,0 +1,35 @@
+p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+  padding: 0px;
+
+}
+
+.box {
+  width: 180px;
+  height: 180px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  /*border: 1px solid black; /* delete me! */
+}
+
+/* Your Code Goes Under This Line */
+
+.subtle {
+  width: 180px;
+  height: 180px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.1);
+}
+
+.technicolor {
+  -moz-box-shadow: 0 0 10px 5px black, 40px -30px lime, 40px 30px 50px red, -40px 30px yellow, -40px -30px 50px blue;
+  -webkit-box-shadow: 0 0 10px 5px black, 40px -30px lime, 40px 30px 50px red, -40px 30px yellow, -40px -30px 50px blue;
+  box-shadow: 0 0 10px 5px black, 40px -30px lime, 40px 30px 50px red, -40px 30px yellow, -40px -30px 50px blue;
+}

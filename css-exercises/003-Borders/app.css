@@ -1,0 +1,36 @@
+img {
+  max-width: 100%;
+}
+
+/* Code Under This Line */
+ {
+  width: 300px;
+  height: 100px;
+  border: 10px solid red;
+  box-sizing: border-box
+}
+
+.first {
+  border: 10px solid red;
+  box-sizing: border-box;
+
+}
+
+.second {
+  border: 10px solid blue;
+  box-sizing: border-box;
+  border-style: dashed;
+}
+
+.third {
+  border-left: 10px solid green;
+  /*box-sizing: border-box;*/
+}
+
+.flag {
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  border-left: 5px solid blue;
+  border-right: 5px solid blue;
+  /*box-sizing: border-box*/
+}
