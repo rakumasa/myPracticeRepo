@@ -10,7 +10,7 @@ class AddProject extends Component {
   }
 
   static defaultProps = {
-    categories: ['Web Desing', 'Web Development', 'Mobile Development']
+    categories: ['Web Design', 'Web Development', 'Mobile Development']
   }
 
   handleSubmit(e){
@@ -54,6 +54,11 @@ class AddProject extends Component {
           </div>
         );
     }
+}
+
+AddProject.propTypes = {
+  categories: React.PropTypes.array,
+  addProject: React.PropTypes.func
 }
 
 export default AddProject;
